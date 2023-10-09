@@ -1,0 +1,117 @@
+/* alexandria-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Alexandria';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/alexandria-v3-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* alexandria-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Alexandria';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/alexandria-v3-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+/* montserrat-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/montserrat-v26-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* montserrat-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/montserrat-v26-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* montserrat-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/montserrat-v26-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+:root{
+    --bg-color: #0A1117;
+    --head-color: white;
+    --button-color: #FFCF01; 
+    --projects-button-color:#182632;
+    --designer-list-color:#37424D;    
+    --font-size: 62.5%;
+}
+
+body{
+    background-color:var(--bg-color);   
+}
+.begin__headline{
+    color:var(--head-color);
+    text-align: center;
+    font-family: Alexandria;
+    font-size: 3.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4.4rem; /* 122.222% */ 
+}
+.begin__text{
+color:var(--head-color);
+text-align: center;
+font-family: Montserrat;
+font-size: 1.8rem;
+font-style: normal;
+font-weight: 500;
+line-height: 2.8rem; /* 155.556% */
+}
+.begin__button{
+    background-color:var(--button-color);
+    border-radius: 1.2rem;
+    box-shadow: 0rem 0.7rem 3.6rem 0rem rgba(255, 207, 1, 0.20);
+    display: inline-flex;
+    padding: 0/8rem 2.8rem;
+    justify-content: center;
+    align-items: center;
+}
+.projects__headline{
+    color: var(--head-color);
+text-align: center;
+font-family: Alexandria;
+font-size: 2.8rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3.6rem; /* 128.571% */
+}
+.projects__button{
+    display: inline-flex;
+    padding: 1.2rem 1.4rem;
+    align-items: flex-start;
+    gap: 0.04rem;
+    border-radius: 4.4939rem;
+    background-color:var(--projects-button-color);
+}
+.projects__button-general{
+    
+}
+.designet__headline{
+    color: var(--head-color);
+    text-align: center;
+    font-family: Alexandria;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 128.571% */
+}
+.designet__text{
+    color:var(--designer-list-color);
+    text-align: center;
+    font-family: Alexandria;
+    font-size: 2.0rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.6rem; /* 180% */
+}
