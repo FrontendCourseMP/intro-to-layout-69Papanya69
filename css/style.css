@@ -373,7 +373,7 @@ line-height: 3.6rem; /* 128.571% */
     font-weight: 600;
     line-height: 2.2rem; /* 169.231% */
 }
-.decicrypt__button{
+.decicrypt__link{
     background-color: #77E6FF;
     color: #10151A;
     font-family: Montserrat;
@@ -405,7 +405,7 @@ line-height: 3.6rem; /* 128.571% */
     font-weight: 600;
     line-height: 2.2rem; /* 169.231% */
 }
-.blookwork__button{
+.blookwork__link{
     background-color:#E2C1F9;
     color: #10151A;
     font-family: Montserrat;
@@ -437,7 +437,7 @@ line-height: 3.6rem; /* 128.571% */
     font-weight: 600;
     line-height: 2.2rem; /* 169.231% */
 }
-.tech-crunch__button{
+.tech-crunch__link{
     background-color:#DBE268;
     color: #10151A;
     font-family: Montserrat;
@@ -582,7 +582,7 @@ line-height: 3.6rem; /* 128.571% */
     font-weight: 700;
     line-height: normal;
 }
-.podcasts_button{
+.podcasts__link{
     color:var(--tools__linktext) ;
     text-align: right;
     text-shadow: 0rem 0.2rem 2.5rem rgba(0, 0, 0, 0.60);
