@@ -67,25 +67,42 @@ body{
     line-height: 4.4rem; /* 122.222% */ 
 }
 .begin__text{
-color:var(--head-color);
-text-align: center;
-font-family: Montserrat;
-font-size: 1.8rem;
-font-style: normal;
-font-weight: 500;
-line-height: 2.8rem; /* 155.556% */
+    color:var(--head-color);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.8rem; /* 155.556% */
 }
 .begin__button{
     background-color:var(--button-color);
     border-radius: 1.2rem;
     box-shadow: 0rem 0.7rem 3.6rem 0rem rgba(255, 207, 1, 0.20);
-    display: inline-flex;
-    padding: 0/8rem 2.8rem;
+    display: inline-block;
+    padding: 0.8rem 2.8rem;
     justify-content: center;
     align-items: center;
 }
-.projects__textbutton-pink{
-    color: var(--projects__button-text);
+.projects__headline{
+    color: var(--head-color);
+    text-align: center;
+    font-family: Alexandria;
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.6rem; /* 128.571% */
+}
+.projects__link{
+    display: inline-block;
+    padding: 1.2rem 1.4rem;
+    align-items: flex-start;
+    gap: 0.4rem;
+    border-radius: 4.4939rem;
+    background: #182632;
+}
+.projects__link-pink{
+    color: #FFB4D3;
     text-align: center;
     font-family: Montserrat;
     font-size: 1.4rem;
@@ -93,7 +110,7 @@ line-height: 2.8rem; /* 155.556% */
     font-weight: 600;
     line-height: 1.6rem; /* 114.286% */
 }
-.projects__textbutton-orange{
+.projects__link-orange{
     color: var(--button-color);
     text-align: center;
     font-family: Montserrat;
@@ -102,7 +119,7 @@ line-height: 2.8rem; /* 155.556% */
     font-weight: 600;
     line-height: 1.6rem; /* 114.286% */
 }
-.projects__textbutton-purple{
+.projects__link-purple{
     color:var(--projects__textbutton-purple);
     text-align: center;
     font-family: Montserrat;
@@ -111,7 +128,7 @@ line-height: 2.8rem; /* 155.556% */
     font-weight: 600;
     line-height: 1.6rem; /* 114.286% */
 }
-.projects__textbutton-blue{
+.projects__link-blue{
     color: var(--projects__textbutton-blue);
     text-align: center;
     font-family: Montserrat;
@@ -120,7 +137,7 @@ line-height: 2.8rem; /* 155.556% */
     font-weight: 600;
     line-height: 1.6rem; /* 114.286% */
 }
-.projects__textbutton-darkblue{
+.projects__link-darkblue{
     color: var(--designer-listcolour);
     text-align: center;
     font-family: Montserrat;
@@ -129,7 +146,7 @@ line-height: 2.8rem; /* 155.556% */
     font-weight: 600;
     line-height: 1.6rem; /* 114.286% */
 }
-.projects__textbutton-grey{
+.projects__link-grey{
     color: #707F8D;
     text-align: center;
     font-family: Montserrat;
@@ -138,17 +155,26 @@ line-height: 2.8rem; /* 155.556% */
     font-weight: 600;
     line-height: 1.6rem; /* 114.286% */
 }
-.projects__headline{
-    color: var(--head-color);
-text-align: center;
-font-family: Alexandria;
-font-size: 2.8rem;
-font-style: normal;
-font-weight: 700;
-line-height: 3.6rem; /* 128.571% */
+.projects__button{
+    display: inline-block;
+    padding: 1.2rem 1.4rem;
+    align-items: flex-start;
+    gap: 0.4rem;
+    border-radius: 4.4939rem;
+    background: #182632;
+}
+.projects__textlink-grey{
+    color: #707F8D;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.6rem; /* 114.286% */
 }
 .projects__button-general{
     color: var(--bg-color);
+    text-align: center;
     display: inline-flex;
     padding: 1.2rem 1.4rem;
     align-items: flex-start;
@@ -201,9 +227,10 @@ line-height: 3.6rem; /* 128.571% */
     font-weight: 600;
     line-height: 1.7976rem; /* 128.398% */
 }
-.tools__linktext{
+.tools__link{
     color: var(--tools__linktext);
     text-align: center;
+    text-decoration: none;
     font-family: Montserrat;
     font-size: 1.4rem;
     font-style: normal;
@@ -212,6 +239,11 @@ line-height: 3.6rem; /* 128.571% */
 }
 .tools__button{
     background-color:var(--button-color);
+    font-family: Loos Wide;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.6rem;
     display: flex;
     width: 19rem;
     height: 4.4rem;
@@ -219,16 +251,16 @@ line-height: 3.6rem; /* 128.571% */
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-    border-radius: 100px;   
+    border-radius: 10rem;   
 }
 .cooperation__headline{
     color: var(--head-color);
     text-align: center;
     font-family: Loos Wide;
-    font-size: 28px;
+    font-size: 2.8rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 36px; /* 128.571% */
+    line-height: 3.6rem; /* 128.571% */
 }
 .cooperation__text{
     color:var(--head-color);
@@ -239,7 +271,7 @@ line-height: 3.6rem; /* 128.571% */
     font-weight: 600;
     line-height: 1.7976rem; /* 149.798% */
 }
-.cooperation__ikon{
+.cooperation__icon{
     display: flex;
     width: 8.4rem;
     height: 8.4rem;
@@ -304,6 +336,7 @@ line-height: 3.6rem; /* 128.571% */
 }
 .form__input{
     color:var(--bg-color);
+    background-color: #0A1117;
     font-family: Montserrat;
     font-size: 1.4rem;
     font-style: normal;
@@ -311,7 +344,7 @@ line-height: 3.6rem; /* 128.571% */
     line-height: 1.8rem; /* 128.571% */
 }
 .form__input::placeholder{
-    color:var(--bg-color);
+    color:var(#3D4C5B);
     font-family: Montserrat;
     font-size: 1.4rem;
     font-style: normal;
@@ -320,6 +353,13 @@ line-height: 3.6rem; /* 128.571% */
 }
 .form__button{
     display: flex;
+    color: #10151A;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.4rem; /* 171.429% */
     width: 28rem;
     padding: 1rem 0rem;
     justify-content: center;
@@ -327,7 +367,7 @@ line-height: 3.6rem; /* 128.571% */
     border-radius: 1rem;
     background: var(--purple-light, #E2C1F9);
 }
-.supports__headlin{
+.supports__headline{
     color: var(--head-color);
     text-align: center;
     font-family: Alexandria;
@@ -446,7 +486,17 @@ line-height: 3.6rem; /* 128.571% */
     font-weight: 700;
     line-height: normal;
 }
-.podcasts_headline{
+.press__link{
+    color:var(--tools__linktext) ;
+    text-align: right;
+    text-shadow: 0rem 0.2rem 2.5rem rgba(0, 0, 0, 0.60);
+    font-family: Montserrat;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.2rem; /* 177.778% */
+}
+.podcasts__headline{
     color: var(--head-color);
     text-align: center;
     font-family: Alexandria;
@@ -505,7 +555,7 @@ line-height: 3.6rem; /* 128.571% */
 }
 .podcasts__josh-gordon{
     width: 32.8rem;
-    height: 26.rem;
+    height: 26rem;
     flex-shrink: 0;
     border-radius: 2rem;
     border: 0.2rem solid #2A3744;
