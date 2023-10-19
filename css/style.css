@@ -57,6 +57,51 @@
 body{
     background-color:var(--bg-color);   
 }
+.begin__wrapper{
+    max-width: 36rem;
+}
+.projects__wrapper{
+    max-width: 36rem;
+}
+.designet__wrapper{
+    max-width: 36rem;
+}
+.tools__wrapper{
+    max-width: 36rem;
+}
+.cooperation__wrapper{
+    max-width: 36rem;
+}
+.help__wrapper{
+    max-width: 36rem;
+}
+.form__wrapper{
+    max-width: 36rem;
+}
+.supports__wrapper{
+    max-width: 36rem;
+}
+.press__wrapper{
+    max-width: 36rem;
+}
+.blookwork{
+    max-width: 36rem;
+}
+.tech-crunch{
+    max-width: 36rem;
+}
+.podcasts__wrapper{
+    max-width: 36rem;
+}
+.anthony-pompliano{
+    max-width: 36rem;
+}
+.josh-gordon{
+    max-width: 36rem;
+}
+.andrew-stainwold{
+    max-width: 36rem;
+}
 .begin__headline{
     color:var(--head-color);
     text-align: center;
@@ -218,6 +263,9 @@ body{
     font-weight: 700;
     line-height: 36px; /* 128.571% */
 }
+.projects__list{
+    text-align: center;
+}
 .tools__link-text{
     color: var(--button-color);
     text-align: center;
@@ -226,6 +274,9 @@ body{
     font-style: normal;
     font-weight: 600;
     line-height: 1.7976rem; /* 128.398% */
+}
+.tools__list{
+    text-align: center;
 }
 .tools__link{
     color: var(--tools__linktext);
