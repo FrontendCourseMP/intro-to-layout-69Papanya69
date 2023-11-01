@@ -38,6 +38,7 @@
     font-weight: 700;
     src: url('../fonts/montserrat-v26-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
+
 :root{
     --bg-color: #0A1117;
     --head-color: white;
@@ -51,23 +52,47 @@
     --projects__textbutton-purple:#D387F7;
     --projects__textbutton-blue:#77E6FF;
     --projects__textbutton-grey:#707F8D;    
-    --font-size: 62.5%;
+      font-size: 62.5%;
 }
-
-body{
-    background-color:var(--bg-color);   
+ul{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background-color:var(--bg-color);
+    box-sizing: border-box;
+    
+}
+.header{
+    display: inline-block;
+    height: 5.6rem;
+    padding: 1.6rem;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16.4rem;
+    flex-shrink: 0;
 }
 .begin__wrapper{
     max-width: 36rem;
+    display: flex ;
+    flex-direction: column;
+    margin: 8rem auto 8rem;
+    padding: 0 1.6rem;
+    align-items: center;
 }
 .projects__wrapper{
     max-width: 36rem;
+    display: flex ;
+    flex-direction: column;
+    margin: 9.9rem auto 0rem;
+    padding: 0 1.6rem;
+    align-items: center;
 }
 .designet__wrapper{
     max-width: 36rem;
 }
 .tools__wrapper{
-    max-width: 36rem;
+    max-width: 36rem;   
 }
 .cooperation__wrapper{
     max-width: 36rem;
@@ -102,14 +127,18 @@ body{
 .andrew-stainwold{
     max-width: 36rem;
 }
+.footer{
+    max-width: 36rem;
+}
 .begin__headline{
     color:var(--head-color);
+    display: flexbox;
     text-align: center;
     font-family: Alexandria;
     font-size: 3.6rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 4.4rem; /* 122.222% */ 
+    line-height: 4.4rem; /* 122.222% */
 }
 .begin__text{
     color:var(--head-color);
@@ -118,16 +147,27 @@ body{
     font-size: 1.8rem;
     font-style: normal;
     font-weight: 500;
+    margin-left: 2.3rem;
+    margin-right: 2.3rem;
     line-height: 2.8rem; /* 155.556% */
 }
-.begin__button{
+.begin__link{
     background-color:var(--button-color);
     border-radius: 1.2rem;
     box-shadow: 0rem 0.7rem 3.6rem 0rem rgba(255, 207, 1, 0.20);
     display: inline-block;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3rem; /* 200% */
     padding: 0.8rem 2.8rem;
+    margin: 4.1rem auto 0rem ;
     justify-content: center;
     align-items: center;
+    width: 14.5rem;
+
 }
 .projects__headline{
     color: var(--head-color);
@@ -136,96 +176,57 @@ body{
     font-size: 2.8rem;
     font-style: normal;
     font-weight: 700;
+    margin: 0rem;
     line-height: 3.6rem; /* 128.571% */
+    width: 32.8rem;
+    height: 7.2rem;
 }
-.projects__link{
-    display: inline-block;
-    padding: 1.2rem 1.4rem;
-    align-items: flex-start;
-    gap: 0.4rem;
+.projects__list{
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.projects__item{
+    display: block;
+    text-decoration: none; 
+    gap: 0.8rem;
     border-radius: 4.4939rem;
     background: #182632;
-}
-.projects__link-pink{
-    color: #FFB4D3;
     text-align: center;
     font-family: Montserrat;
     font-size: 1.4rem;
     font-style: normal;
     font-weight: 600;
     line-height: 1.6rem; /* 114.286% */
-}
-.projects__link-orange{
-    color: var(--button-color);
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 1.4rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 1.6rem; /* 114.286% */
-}
-.projects__link-purple{
-    color:var(--projects__textbutton-purple);
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 1.4rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 1.6rem; /* 114.286% */
-}
-.projects__link-blue{
-    color: var(--projects__textbutton-blue);
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 1.4rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 1.6rem; /* 114.286% */
-}
-.projects__link-darkblue{
-    color: var(--designer-listcolour);
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 1.4rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 1.6rem; /* 114.286% */
-}
-.projects__link-grey{
-    color: #707F8D;
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 1.4rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 1.6rem; /* 114.286% */
+    padding: 1.2rem 1.4rem ;
+    margin: 0.6rem 0.6rem;
 }
 .projects__button{
-    display: inline-block;
-    padding: 1.2rem 1.4rem;
-    align-items: flex-start;
     gap: 0.4rem;
-    border-radius: 4.4939rem;
     background: #182632;
-}
-.projects__textlink-grey{
-    color: #707F8D;
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 1.4rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 1.6rem; /* 114.286% */
+    border: 0;
 }
 .projects__button-general{
     color: var(--bg-color);
     text-align: center;
     display: inline-flex;
-    padding: 1.2rem 1.4rem;
-    align-items: flex-start;
-    gap: 0.4rem;
-    border-radius: 4.4939rem;
+    font-family: Montserrat;
+    font-size: 1.3rem;
+    font-style:normal;
+    font-weight:700;
+    line-height: 2.4rem;
+    padding: 0.2rem 1.2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    border-radius: 10rem;
     background: var(--button-color);
+    margin-right: 4rem;
+    width: 25.7rem; 
+    height:2.4rem;
 }
 .designet__headline{
     color: var(--head-color);
@@ -236,11 +237,12 @@ body{
     font-weight: 700;
     line-height: 3.6rem; /* 128.571% */
 }
-.designet__text{
+.designet__item{
     color:var(--designer-list-color);
     text-align: center;
     font-family: Alexandria;
     font-size: 2.0rem;
+    line-height: 3.6rem;
     font-style: normal;
     font-weight: 700;
     line-height: 3.6rem; /* 180% */
@@ -263,17 +265,26 @@ body{
     font-weight: 700;
     line-height: 36px; /* 128.571% */
 }
-.projects__list{
+.tools__list{
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     text-align: center;
 }
-.tools__link-text{
+.tools__item{
+    display: block;
     color: var(--button-color);
     text-align: center;
+    justify-content: center;
     font-family: Montserrat;
     font-size: 1.4rem;
     font-style: normal;
     font-weight: 600;
     line-height: 1.7976rem; /* 128.398% */
+    margin: 1.2rem 0.8rem;
 }
 .tools__list{
     text-align: center;
@@ -288,21 +299,21 @@ body{
     font-weight: 600;
     line-height: 1.7976rem; /* 128.398% */
 }
-.tools__button{
+.tools__link-special{
     background-color:var(--button-color);
     font-family: Loos Wide;
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 700;
     line-height: 3.6rem;
+    margin: 6.9rem;
     display: flex;
     width: 19rem;
     height: 4.4rem;
     padding: 0.4rem 2.9rem 0.4rem 3rem;
     justify-content: center;
     align-items: center;
-    flex-shrink: 0;
-    border-radius: 10rem;   
+    border-radius: 0.8rem;   
 }
 .cooperation__headline{
     color: var(--head-color);
@@ -312,6 +323,27 @@ body{
     font-style: normal;
     font-weight: 700;
     line-height: 3.6rem; /* 128.571% */
+}
+.cooperation__list{
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.cooperation__item{
+    display: block;
+    color: var(--button-color);
+    text-align: center;
+    justify-content: center;
+    font-family: Montserrat;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.7976rem; /* 128.398% */
+    margin: 5.4rem 1rem;
 }
 .cooperation__text{
     color:var(--head-color);
@@ -341,6 +373,14 @@ body{
     font-style: normal;
     font-weight: 700;
     line-height: 3.6rem; /* 128.571% */
+}
+.help__list-images{
+    display: flex;
+    margin: 2.4rem 4.4rem 2.2rem 4.4rem  ;
+    align-items: center;
+}
+.help__item-images{
+    margin-bottom: 0.5rem;
 }
 .help__text{
     color:var(--head-color);
@@ -696,7 +736,6 @@ body{
 .footer{
     display: flex;
     width: 36rem;
-    padding: 3.2rem 7rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
