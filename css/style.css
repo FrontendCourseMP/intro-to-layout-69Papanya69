@@ -403,7 +403,7 @@ ul{
 .tools__link-special{
     background-color:rgba(255, 207, 1, 0.15);
     color: #FFCF01;
-    font-family: Loos Wide;
+    font-family: Montserrat;
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 700;
@@ -421,7 +421,7 @@ ul{
 .cooperation__headline{
     color: var(--head-color);
     text-align: center;
-    font-family: Loos Wide;
+    font-family: Montserrat;
     font-size: 2.8rem;
     font-style: normal;
     font-weight: 700;
@@ -677,6 +677,7 @@ ul{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    text-decoration: none;
 }
 .press__link{
     color:var(--tools__linktext) ;
@@ -687,6 +688,7 @@ ul{
     font-style: normal;
     font-weight: 700;
     line-height: 3.2rem; /* 177.778% */
+    text-decoration: none;
 }
 .podcasts__headline{
     color: var(--head-color);
@@ -744,6 +746,7 @@ ul{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    text-decoration: none;
 }
 .podcasts__josh-gordon{
     width: 32.8rem;
@@ -783,6 +786,7 @@ ul{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    text-decoration: none;
 }
 .podcasts__andrew-stainwold{
     width: 32.8rem;
@@ -823,6 +827,7 @@ ul{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    text-decoration: none;
 }
 .podcasts__link{
     color:var(--tools__linktext) ;
