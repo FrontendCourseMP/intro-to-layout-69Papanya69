@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-image: url(/img/Задание\ 1.png);
+  background-size: 100%; 
+  background-repeat: no-repeat;
+}
+
+.header__logo {
+  width: 200px;
+}
+
+.btn {
+  display: block;
+  margin: auto;
+  width: 90px;
+}
+
+.footer__logo {
+  margin: 0 auto;
+  width: 400px;
+}
