@@ -497,10 +497,12 @@ ul{
 .form__wrapper{
     width: 32.8rem;
     height: 28rem;
-    flex-shrink: 0;
+    text-align: center;
     border-radius: 2.2rem;
     border: 0.1rem solid #2A3744;
     background: #14212D;
+    margin-left: auto;
+    margin-right: auto;
 }
 .form__headline{
     color: var(--head-color);
@@ -521,8 +523,9 @@ ul{
     line-height: 2.8rem; /* 147.368% */
 }
 .form__input{
-    display: flex;
+    
     width: 27.9rem;
+    height: 4.4rem; 
     align-items: center;
     border-radius: 1rem;
     border: 0.1rem solid #2A3744;
@@ -547,6 +550,9 @@ ul{
     display: flex;
     color: #10151A;
     text-align: center;
+    margin-top: 1.6rem;
+    margin-left: auto;
+    margin-right: auto ;
     font-family: Montserrat;
     font-size: 1.4rem;
     font-style: normal;
@@ -578,8 +584,12 @@ ul{
     line-height: 3.6rem; /* 128.571% */
 }
 .press__decicrypt{
+    margin-top: 2.4rem;
     width: 32.8rem;
-    height: 26,2rem;
+    height: 26.2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
     flex-shrink: 0;
     border-radius: 2rem;
     background: #77E6FF;
@@ -587,12 +597,20 @@ ul{
 .decicrypt__image{
     width: 19.2rem;
     height: 5rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 11.6rem;
+    padding-bottom: 1.2rem;
     flex-shrink: 0;
 }
 .decicrypt__headline{
     color:var(--bg-color);
     font-family: Montserrat;
+    margin: 0rem;
     font-size: 1.8rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 0.8rem;
     font-style: normal;
     font-weight: 700;
     line-height: 2.4rem; /* 133.333% */
@@ -600,29 +618,48 @@ ul{
 .decicrypt__text{
     color:var(--bg-color);
     font-family: Montserrat;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    margin:0rem;
     font-size: 1.3rem;
     font-style: normal;
     font-weight: 600;
     line-height: 2.2rem; /* 169.231% */
 }
 .decicrypt__link{
-    background-color: #77E6FF;
     color: #10151A;
     font-family: Montserrat;
     font-size: 1.4rem;
     font-style: normal;
+    padding-left: 2rem;
+    padding-right: 27rem;
+    padding-bottom: 2rem;
     font-weight: 700;
     line-height: normal;
 }
 .press__blookwork{
     width: 32.8rem;
     height: 28.4rem;
-    flex-shrink: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.6rem;
     border-radius: 2rem;
     background: #E2C1F9;
 }
+.blookwork__image{
+    width: 12.7rem;
+    height: 2rem;
+    padding-left: 2rem;
+    padding-right: 18.1rem;
+    padding-top: 3.5rem;
+    padding-bottom: 2.6rem;
+}
 .blookwork__headline{
     color:var(--bg-color);
+    margin: 0rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     font-family: Montserrat;
     font-size: 1.8rem;
     font-style: normal;
@@ -632,31 +669,48 @@ ul{
 .blookwork__text{
     color:var(--bg-color);
     font-family: Montserrat;
+    margin: 0rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.8rem;
+    padding-bottom: 2rem;
     font-size: 1.3rem;
     font-style: normal;
     font-weight: 600;
     line-height: 2.2rem; /* 169.231% */
 }
 .blookwork__link{
-    background-color:#E2C1F9;
     color: #10151A;
     font-family: Montserrat;
     font-size: 1.4rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 27rem;
 }
 .press__tech-crunch{
     width: 32.8rem;
     height: 28.4rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4rem;
     flex-shrink: 0;
     border-radius: 2rem;
     background: #DBE268;   
+}
+.tech-crunch__image{
+    width: 14.2rem;
+    height: 2.1rem;
+    padding: 3.4rem 16.6rem 2.6rem 2rem
 }
 .tech-crunch__headline{
     color: #10151A;
     font-family: Montserrat;    
     font-size: 1.8rem;
+    padding: 0rem 2rem 0rem 2rem;
+    margin: 0rem;
     font-style: normal;
     font-weight: 700;
     line-height: 2.4rem; /* 133.333% */
@@ -665,12 +719,14 @@ ul{
     color: #10151A;
     font-family: Montserrat;
     font-size: 1.3rem;
+    margin: 0rem;
+    padding: 0.8rem 2rem 1.9rem 2rem;
     font-style: normal;
     font-weight: 600;
     line-height: 2.2rem; /* 169.231% */
 }
 .tech-crunch__link{
-    background-color:#DBE268;
+    padding: 0rem 23.1rem 2rem 2rem   ;
     color: #10151A;
     font-family: Montserrat;
     font-size: 1.4rem;
@@ -681,7 +737,10 @@ ul{
 }
 .press__link{
     color:var(--tools__linktext) ;
-    text-align: right;
+    text-align: center;
+    margin-left: 14.4rem;
+    margin-top: 14.4rem;
+    margin-bottom: 7.9rem;
     text-shadow: 0rem 0.2rem 2.5rem rgba(0, 0, 0, 0.60);
     font-family: Montserrat;
     font-size: 1.8rem;
@@ -702,7 +761,9 @@ ul{
 .podcasts__anthony-pompliano{
     width: 32.8rem;
     height: 23.6rem;
-    flex-shrink: 0;
+    margin-left: 1.6rem;
+    margin-right: 1.6rem;
+    margin-bottom: 1.6rem;
     border-radius: 2rem;
     border: 0.2rem solid #2A3744;
     background: #121E28;
@@ -711,37 +772,49 @@ ul{
 .anthony-pompliano__image{
     width: 4rem;
     height: 4rem;
+    padding: 2.4rem 26.8rem 1.6rem 2rem;
     flex-shrink: 0;
     border-radius: 0.8rem;
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 .anthony-pompliano__headline{
     color:var(--head-color);
     font-family: Montserrat;
+    padding: 0rem 1.9rem 0rem 2rem;
+    margin: 0rem;
     font-size: 1.7rem;
     font-style: normal;
+    text-align: left;
     font-weight: 700;
     line-height: 2.4rem; /* 141.176% */
+    width: 28.8rem;
+    height: 4.8rem;
 }
 .anthony-pompliano__text{
     color:var(--head-color);
+    padding: 1.2rem 2rem 0rem 2rem;
+    margin: 0rem;
     font-family: Montserrat;
+    text-align: left;
     font-size: 1.7rem;
     font-style: normal;
     font-weight: 700;
     line-height: 2.4rem; /* 141.176% */
 }
-.anthony-pompliano__text{
+.anthony-pompliano__text2{
     color: #E2E2E2;
     font-family: Montserrat;
+    padding: 0rem 2rem 0rem 2rem;
+    margin: 0rem;
+    text-align: left;
     font-size: 1.4rem;
     font-style: normal;
     font-weight: 600;
     line-height: 2.4rem; /* 171.429% */
 }
-.anthony-pompliano__link{
+.anthony-pompliano__lin{
     color:var(--head-color);
     font-family: Montserrat;
+    padding: 1.7rem 26.9rem 2rem 2rem;
     font-size: 1.2rem;
     font-style: normal;
     font-weight: 700;
@@ -751,6 +824,9 @@ ul{
 .podcasts__josh-gordon{
     width: 32.8rem;
     height: 26rem;
+    margin-left: 1.6rem;
+    margin-right: 1.6rem;
+    margin-bottom: 1.6rem;
     flex-shrink: 0;
     border-radius: 2rem;
     border: 0.2rem solid #2A3744;
@@ -759,14 +835,17 @@ ul{
 .josh-gordon__image{
     width: 4rem;
     height: 4rem;
+    padding: 2.4rem 26.8rem 1.6rem 2rem;
     flex-shrink: 0;
     border-radius: 0.8rem;
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 .josh-gordon__headline{
     color:var(--head-color);
     font-family: Montserrat;
     font-size: 1.7rem;
+    text-align: left;
+    padding: 0rem 2rem 1.2rem 2rem;
+    margin: 0rem;
     font-style: normal;
     font-weight: 700;
     line-height: 2.4rem; /* 141.176% */
@@ -775,6 +854,20 @@ ul{
     color: #E2E2E2;
     font-family: Montserrat;
     font-size: 1.4rem;
+    text-align: left;
+    margin: 0rem;
+    padding: 0rem 2rem 0rem 2rem ;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.4rem; /* 171.429% */
+}
+.josh-gordon__text2{
+    color: #E2E2E2;
+    font-family: Montserrat;
+    font-size: 1.4rem;
+    text-align: left;
+    margin: 0rem;
+    padding: 0rem 2rem 0rem 2rem ;
     font-style: normal;
     font-weight: 600;
     line-height: 2.4rem; /* 171.429% */
@@ -783,6 +876,7 @@ ul{
     color:var(--head-color);
     font-family: Montserrat;
     font-size: 1.2rem;
+    padding: 1.7rem 26.6rem 2rem 2rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -792,6 +886,8 @@ ul{
     width: 32.8rem;
     height: 23.6rem;
     flex-shrink: 0;
+    margin-left: 1.6rem;
+    margin-right: 1.6rem;
     border-radius: 2rem;
     border: 0.2rem solid #2A3744;
     background: #121E28;
@@ -802,12 +898,15 @@ ul{
     height: 4rem;
     flex-shrink: 0;
     border-radius: 0.8rem;
-    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    padding: 2.4rem 26.6rem 0rem 2rem;
 }
 .andrew-stainwold__headline{
     color:var(--head-color);
     font-family: Montserrat;
     font-size: 1.7rem;
+    padding: 1.6rem 2rem 1.2rem 2rem;
+    text-align: left;
+    margin: 0rem;
     font-style: normal;
     font-weight: 700;
     line-height: 2.4rem; /* 141.176% */
@@ -816,15 +915,31 @@ ul{
     color: var(--head-color);
     font-family: Montserrat;
     font-size: 1.4rem;
+    margin: 0rem;
+    padding: 0rem 2rem 0rem 2rem;
+    text-align: left;
     font-style: normal;
     font-weight: 600;
     line-height: 2.4rem; /* 171.429% */
 }
+.andrew-stainwold__text2{
+    color: var(--head-color);
+    font-family: Montserrat;
+    font-size: 1.4rem;
+    margin: 0rem;
+    padding: 0rem 4rem 0rem 2rem;
+    text-align: left;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.4rem; /* 171.429% */
+}    
 .andrew-stainwold__link{
     color:var(--head-color);
     font-family: Montserrat;
     font-size: 1.2rem;
     font-style: normal;
+    text-align: left;
+    padding: 1.7rem 26.9rem 2rem 2rem;
     font-weight: 700;
     line-height: normal;
     text-decoration: none;
