@@ -944,11 +944,13 @@ ul{
     line-height: normal;
     text-decoration: none;
 }
-.podcasts__link{
+.podcasts__link_general{
     color:var(--tools__linktext) ;
-    text-align: right;
+    display: block;
+    margin: 4rem 14.4rem 6rem 14.4rem;
     text-shadow: 0rem 0.2rem 2.5rem rgba(0, 0, 0, 0.60);
     font-family: Montserrat;
+    text-align: center;
     font-size: 1.8rem;
     font-style: normal;
     font-weight: 700;
@@ -960,7 +962,34 @@ ul{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: #121E28;
     gap: 3.1901rem;
+}
+.footer__wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 36rem;
+    padding: 3.2rem 7rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.1rem;
+}
+.footer__logo{
+    width: 12.7rem;
+    height: 2.1rem;
+
+}
+.footer__list-text{
+    display: flex;
+    align-items: flex-start;
+    gap: 4rem;
+}
+.footer__list-link{
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
 }
 .footer__text{
     color:var(--head-color);
