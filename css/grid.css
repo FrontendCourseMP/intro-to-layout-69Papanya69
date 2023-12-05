@@ -76,6 +76,10 @@
     display: grid;
     grid-template-columns: 120px 120px 120px 120px 120px 120px ;
     grid-template-rows: 160px 120px 160px ;
+    grid-template-areas: 
+        "first first first first first first"
+        "second second therd therd fourth fourth"
+        "five five five six six six";
     margin: 0;
     padding-left: 5px;
     align-content: center;;
@@ -83,14 +87,14 @@
     background-color: aquamarine;
 }
 .dashboard__schedule1{
-    grid-area: 1/1/2/7
+    grid-area: first;
 }
 .graphik1{
     width: 100%;
     height: 100%;
 }
 .dashboard__schedule2{
-    grid-area: 2/1/3/3;
+    grid-area: second;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 7px;
@@ -100,7 +104,7 @@
     height: 100%;
 }
 .dashboard__schedule3{
-    grid-area: 2/3/3/5;
+    grid-area: therd;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 7px;
@@ -110,7 +114,7 @@
     height: 100%;
 }
 .dashboard__schedule4{
-    grid-area: 2/5/3/7;
+    grid-area: fourth ;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 7px;
@@ -120,7 +124,7 @@
     height: 100%;
 }
 .dashboard__schedule5{
-    grid-area: 3/1/4/4;
+    grid-area: five;
     padding-right: 10px;
     padding-top: 7px;
 }
@@ -129,7 +133,7 @@
     height: 100%;
 }
 .dashboard__schedule6{
-    grid-area: 3/4/4/7; 
+    grid-area: six; 
     padding-left: 10px;
     padding-top: 10px;
 }
