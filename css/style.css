@@ -1358,9 +1358,9 @@ ul{
     }
     .projects__headline {
       width: 73.6rem;
+      font-size: 3.6rem;
     }
     .projects__item {
-      font-size: 1.6rem;
       line-height: 3.2rem;
     }
     .projects__list{
@@ -1368,24 +1368,31 @@ ul{
     }
     .projects__link_pink{
         padding: 0.8rem 2.4rem;
+        font-size: 1.6rem;
     }
     .projects__link_orange{
         padding: 0.8rem 2.4rem;
+        font-size: 1.6rem;
     }
     .projects__link_purple{
         padding: 0.8rem 2.4rem;
+        font-size: 1.6rem;
     }
     .projects__link_blue{
         padding: 0.8rem 2.4rem;
+        font-size: 1.6rem;
     }
     .projects__link_darkblue{
         padding: 0.8rem 2.4rem;
+        font-size: 1.6rem;
     }
     .projects__link_pink2{
         padding: 0.8rem 2.4rem;
+        font-size: 1.6rem;
     }
     .projects__link_grey{
         padding: 0.8rem 2.4rem;
+        font-size: 1.6rem;
     }
     .projects__img{
         width: 73.6rem;
@@ -1398,11 +1405,34 @@ ul{
         padding: 0.2rem 2rem;
         width: 31.6rem;
     }
+    .designet__headline{
+        font-size: 3.6rem;
+    }
+    .designet__item_text{
+        font-size: 3.2rem;
+    }
     .tools__headline {
       width: 40rem;
+      font-size: 3.6rem;
     }
     .tools__list {
       width: 73.6rem;
+    }
+    .tools__link-special{
+      font-size: 1.7rem;   
+    }
+    .cooperation__headline{
+        font-size: 3.6rem;
+    }
+    .cooperation__text{
+        font-size: 1.4rem;
+        line-height: 2.4rem;
+    }
+    .help__headline{
+        font-size: 3.6rem;
+    }
+    .help__text{
+        font-size: 3.2rem;
     }
     .newsletter__paragraf {
       font-size: 2.8rem;
