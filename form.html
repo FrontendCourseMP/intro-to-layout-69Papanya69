@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="img" href="img/">
+    <title>Document</title>
+</head>
+<body class="body">
+    <header>
+        <div class="header__wrapper wrapper">
+            <a class="header__link" href="#"><img class="header__logo" src="img/Logo (1).svg" alt="logo"></a>   
+                <ul class="header__link-list">
+                    <li>
+                        <a>Product</a>
+                    </li>
+                    <li>
+                        <a class="problem__link">Use cases</a>
+                    </li>
+                    <li>
+                        <a>Learn</a>
+                    </li>
+                    <li>
+                        <a>About</a>
+                    </li>
+                        <a>Jobs</a>
+                    <li>
+                </ul>
+                    <a class="header__link-muchwidth">Login</a>        
+                    <button class="header__button" type="menu" name="menu">
+                    <svg class="header__burger-menu" width="16.5" height="15.5" viewBox="0 0 18 16" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M2 0.25C1.30964 0.25 0.75 0.809644 0.75 1.5C0.75 2.19036 1.30964 2.75 2 2.75H16C16.6904 2.75 17.25 2.19036 17.25 1.5C17.25 0.809644 16.6904 0.25 16 0.25H2ZM0.75 8C0.75 7.30964 1.30964 6.75 2 6.75H16C16.6904 6.75 17.25 7.30964 17.25 8C17.25 8.69036 16.6904 9.25 16 9.25H2C1.30964 9.25 0.75 8.69036 0.75 8ZM0.75 14.5C0.75 13.8096 1.30964 13.25 2 13.25H16C16.6904 13.25 17.25 13.8096 17.25 14.5C17.25 15.1904 16.6904 15.75 16 15.75H2C1.30964 15.75 0.75 15.1904 0.75 14.5Z"
+                    fill="#FFCF01" />
+                    </svg></button>
+        </div>
+    </header>
+    <main>
+        <div class="form__wrapper">
+            <h1 class="form__headline">Registration</h1>
+            <form action="//httpbin.org/post" method="post" class="form">
+                <div class="form__personal">
+                    <p class="personal__headline">Personal Information</p>
+                    <label class="form__label__name" for="">name
+                        <input class="form__input__name" name="name" type="text" placeholder="Kirill Ivashevich">
+                    </label>
+                    <label class="form__label__date">date of birthday
+                        <input class="form__input__date" type="date">
+                    </label>
+                    <fieldset class="form__fieldlist__sex">
+                        <legend class="form__legend__sex">sex</legend>
+                        <label class="form__label__sex">Male
+                            <input type="radio" value="Male" name="sex" class="form__input-sexbutton">
+                        </label>
+                        <label class="form__label__sex">Female
+                            <input type="radio" value="Female" name="sex" class="form__input-sexbutton">
+                        </label>
+                    </fieldset>
+                    <label class="form__label__password">password<span class="red__inscription">*</span>
+                        <input class="form__input__password" type="password">
+                    </label>
+                </div>
+                <div class="form__contacts">
+                    <p class="personal__headline">Contact information</p>
+                    <label class="form__label__email">Email<span class="red__inscription"></span>
+                        <input type="email" name="email" placeholder="aboba@gmail.com" class="form__input__email" required>
+                    </label>
+                    <label class="form__label__tel">phone number
+                        <input type="tel" name="phone_number" placeholder="89999998989" class="form__input__tel">
+                    </label>
+                    <fieldset class="form__fieldlist__time">
+                        <legend class="form__legend__time">When is the best time to contact you?</legend>
+                        <label class="form__label">morning
+                            <input type="checkbox" name="time_to_day" value="morning" class="form__input__time">
+                        </label>
+                        <label class="form__label">afternoon
+                            <input type="checkbox" name="time_to_day" value="afternoon" class="form__input__time">
+                        </label>
+                        <label class="form__label">evening
+                            <input type="checkbox" name="time_to_day" value="evening" class="form__input__time">
+                        </label>
+                        <label class="form__label">night
+                            <input type="checkbox" name="time_to_day" value="night" class="form__input__time">
+                        </label>
+                    </fieldset>
+                    <label class="form__label__adress">adress
+                        <input class="form__input__adress" type="text">
+                    </label>
+                    <ul class="button__list">
+                        <li><button class="send" type="submit">send</button></li>
+                        <li><button class="reset" type="reset">reset</button></li>
+                    </ul>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="footer__wrapper">
+            <a class="footer__link-ikon" href="#"><img class="footer__logo" src="img/Logo (1).svg" alt="logo5"></a>
+            <ul class="footer__list-text">
+                <li><a class="footer__text" href="">Legal</a></li>
+                <li><a class="footer__text" href="">Jobs</a></li>
+                <li><a class="footer__text" href="">about</a></li>
+            </ul>
+            <ul class="footer__list-link">
+                <li>
+                    <a class="footer__link-1" href="#">
+                        <img class="footer__icon" src="img/Frame.svg" alt="tweater">
+                    </a>
+                </li>
+                <li>
+                    <a class="footer__link-2" href="#">
+                        <img class="footer__icon" src="img/Frame (1).svg" alt="Telegramm">
+                    </a>
+                </li>
+                <li>
+                    <a class="footer__link-3" href="#">
+                        <img class="footer__icon" src="img/Frame (2).svg" alt="youtube">
+                    </a>
+                </li>
+                <li>
+                    <a class="footer__link-4" href="#">
+                        <img class="footer__icon" src="img/Frame 5617.svg" alt="discord">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
