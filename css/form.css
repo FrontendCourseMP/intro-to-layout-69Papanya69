@@ -443,11 +443,13 @@ ul {
 .form_legend-teory{
     text-align: center;
     color: #FFF;
+    margin-bottom: 5rem;
     font-family: Montserrat;
     font-size: 1.8rem;
     font-style: normal;
     font-weight: 700;
 }
+
 .teory{
     text-align: left;
     color: #FFF;
@@ -544,7 +546,7 @@ ul {
     flex-direction: row;
     padding-top: 3.2rem;
     flex-wrap: wrap;
-    margin: 5rem auto 0;
+    margin: 50rem auto 0;
     min-width: 36rem;
     flex-direction: column;
     justify-content: center;
