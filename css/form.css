@@ -140,6 +140,7 @@ ul {
     margin: 0rem;
     border: none;
 }
+
 .header__link-list{
     display: none;
 }
@@ -449,7 +450,6 @@ ul {
     font-style: normal;
     font-weight: 700;
 }
-
 .teory{
     text-align: left;
     color: #FFF;
@@ -556,7 +556,7 @@ ul {
     .footer__logo{
     width: 12.7rem;
     height: 2.1rem;
-
+    transform: skewX(30deg) skewX(30deg) rotateZ(30deg) scale(1.5);
 }
 .footer__list-text{
     display: flex;
@@ -702,6 +702,7 @@ ul {
 
     .footer__logo {
         margin: 6.1rem 0 6.4rem;
+        transform: skewX(30deg) skewX(30deg) rotateZ(30deg) scale(1.5);
     }
 
     .footer__picture {

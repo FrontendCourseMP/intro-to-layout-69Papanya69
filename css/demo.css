@@ -5,6 +5,12 @@
 body{
     background-color: #333;
 }
+.item__link{
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-decoration: none;
+}
 .header__wrapper{
     display: flex;
     flex-direction: row;
@@ -53,7 +59,13 @@ body{
     cursor: pointer;
     width: 340px;
     height: 480px;
-    margin-top: 16rem ;
+    margin: 234px 0;
+}
+a:hover{
+    transform: scale(1.2);
+}
+.item__link:hover{
+    transform: scale(1.2);
 }
 .front,
 .back{
@@ -115,7 +127,7 @@ span{
     background: #121E28;
     padding-top: 3.2rem;
     flex-wrap: wrap;
-    margin: 42rem auto 0;
+    margin: 50rem auto 0;
     min-width: 36rem;
     flex-direction: row;
     justify-content: center;

@@ -11,24 +11,25 @@
 </head>
 
 <body class="body">
+    <a href="#main" class="skip-link">skip-link</a>
     <header class="header">
         <div class="header__wrapper wrapper">
-            <a class="header__link" href="#"><img src="img/Logo (1).svg" class="header__logotip" alt="logo"></a>   
+            <a class="header__link" href="#"><img src="images/Logo (1).svg" class="header__logotip" alt="logo"></a>   
                 <ul class="header__link-list">
                     <li   class="header__list-item">
-                        <a>Product</a>
+                        <a href="/grid.html" class="item__link">Grid</a>
                     </li>
                     <li   class="header__list-item">
-                        <a class="problem__link">Use cases</a>
+                        <a href="/form.html" class="item__link">form</a>
                     </li>
                     <li   class="header__list-item">
-                        <a>Learn</a>
+                        <a href="/demo.html" class="item__link">demo</a>
                     </li>
                     <li   class="header__list-item">
-                        <a>About</a>
+                        <a class="item__link">About</a>
                     </li>
                     <li class="header__list-item">
-                        <a>Jobs</a>
+                        <a class="item__link">Jobs</a>
                     </li>
                 </ul>
                     <a class="header__link-muchwidth">Login</a>        
@@ -40,7 +41,7 @@
                     </svg></button>
         </div>
     </header>
-    <main class="main">
+    <main class="main" id="main">
         <section class="main__begin begin">
             <div class="begin__wrapper">
                 <h1 class="begin__headline">The easiest way to start a DAO</h1>
@@ -61,7 +62,20 @@
                     <li class="projects__item"><a class="projects__link_pink2">DeFi DAO</a></li>
                     <li class="projects__item"><a class="projects__link_grey">More</a></li>
                 </ul>
-                <img class="projects__img" src="img/Frame 5631.jpg" alt="Kartinka">
+                <picture>
+                    <source
+                        srcset="images/Artworks1200.jpg, images/Artworks1200-2x.jpg 2x, images/Artworks1200-3x.jpg 3x, images/Artworks1200-4x.jpg 4x"
+                        media="(min-width: 1200px)">
+                    <source
+                        srcset="images/Artworks768.jpg, images/Artworks768-2x.jpg 2x, images/Artworks768-3x.jpg 3x, images/Artworks768-4x.jpg 4x"
+                        media="(min-width: 768px)">
+                    <source
+                        srcset="images/Artworks400.jpg, images/Artworks400-2x.jpg 2x, images/Artworks400-3x.jpg 3x, images/Artworks400-4x.jpg 4x"
+                        media="(min-width: 416px) and (max-width: 768px)">
+                    <img class="projects__picture" src="images/Artworks.jpg"
+                        srcset="images/Artworks-2x.jpg 2x, images/Artworks-3x.jpg 3x, images/Artworks-4x.jpg 4x"
+                        alt="Examples of projects on Superdao">
+                </picture>
                 <a class="projects__link-general" href="#">1000+ projects launched on Superdao</a>
             </div>
         </section>
@@ -104,7 +118,20 @@
                     <li class="tools__item"><a class="tools__link" href="#">Governance</a></li>
                     <li class="tools__item"><a class="tools__link" href="#">App store</a></li>
                 </ul>
-                <img class="tools__img" src="img/1 NFT membership.svg" alt="Demo_DAO">
+                <picture>
+                    <source
+                        srcset="images/App1200.png, images/App1200-2x.png 2x, images/App1200-3x.png 3x, images/App1200-4x.png 4x"
+                        media="(min-width: 1200px)">
+                    <source
+                        srcset="images/App768.png, images/App768-2x.png 2x, images/App768-3x.png 3x, images/App768-4x.png 4x"
+                        media="(min-width: 768px)">
+                    <source
+                        srcset="images/App400.png, images/App400-2x.png 2x, images/App400-3x.png 3x, images/App400-4x.png 4x"
+                        media="(min-width: 416px) and (max-width: 768px)">
+                    <img class="tools__picture" src="images/App.png"
+                        srcset="images/App-2x.png 2x, images/App-3x.png 3x, images/App-4x.png 4x"
+                        alt="The appearance of the application">
+                </picture>
                 <a class="tools__link-special" href="#">Watch video</a>
             </div>
         </section>
@@ -113,27 +140,27 @@
                 <h2 class="cooperation__headline">Works with</h2>
                 <ul class="cooperation__list">
                     <li class="cooperation__item">
-                        <img class="cooperation__icon" src="img/Icon_ethereum (1).svg" alt="Ethereum">
+                        <img class="cooperation__icon" src="images/Icon_ethereum (1).svg" alt="Ethereum">
                         <p class="cooperation__text">Ethereum</p>
                     </li>
                     <li class="cooperation__item">
-                        <img class="cooperation__icon" src="img/Icon_polygon (1).svg" alt="Polygon">
+                        <img class="cooperation__icon" src="images/Icon_polygon (1).svg" alt="Polygon">
                         <p class="cooperation__text">Polygon</p>
                     </li>
                     <li class="cooperation__item">
-                        <img class="cooperation__icon" src="img/Frame 5608 (1).svg" alt="Gnosis safe">
+                        <img class="cooperation__icon" src="images/Frame 5608 (1).svg" alt="Gnosis safe">
                         <p class="cooperation__text">Gnosis safe</p>
                     </li>
                     <li class="cooperation__item">
-                        <img class="cooperation__icon" src="img/Frame 2091 (1).svg" alt="Snapshot">
+                        <img class="cooperation__icon" src="images/Frame 2091 (1).svg" alt="Snapshot">
                         <p class="cooperation__text">Snapshot</p>
                     </li>
                     <li class="cooperation__item">
-                        <img class="cooperation__icon" src="img/Avatar.svg" alt="ENS">
+                        <img class="cooperation__icon" src="images/Avatar.svg" alt="ENS">
                         <p class="cooperation__text">ENS</p>
                     </li>
                     <li class="cooperation__item">
-                        <img class="cooperation__icon" src="img/icon_opensea.svg" alt="oper sea">
+                        <img class="cooperation__icon" src="images/icon_opensea.svg" alt="oper sea">
                         <p class="cooperation__text">Open sea</p>
                     </li>
                 </ul>
@@ -143,11 +170,11 @@
             <div class="help__wrapper">
                 <h2 class="help__headline">Help at every step</h2>
                 <ul class="help__list-images">
-                    <li class="help__item-images"><img class="help__image" src="img/image 124.jpg" alt="human1"></li>
-                    <li class="help__item-images"><img class="help__image" src="img/image 121.jpg" alt="human2"></li>
-                    <li class="help__item-images"><img class="help__image" src="img/Sergey Zanozin 2 2 (1).jpg" alt="human3"></li>
-                    <li class="help__item-images"><img class="help__image" src="img/IMG_4390-Edit 2.jpg" alt="human4"></li>
-                    <li class="help__item-images"><img class="help__image" src="img/image 125.jpg" alt="human5"></li>
+                    <li class="help__item-images"><img class="help__image" src="images/image 124.jpg" alt="human1"></li>
+                    <li class="help__item-images"><img class="help__image" src="images/image 121.jpg" alt="human2"></li>
+                    <li class="help__item-images"><img class="help__image" src="images/Sergey Zanozin 2 2 (1).jpg" alt="human3"></li>
+                    <li class="help__item-images"><img class="help__image" src="images/IMG_4390-Edit 2.jpg" alt="human4"></li>
+                    <li class="help__item-images"><img class="help__image" src="images/image 125.jpg" alt="human5"></li>
                 </ul>
                 <ul class="help__list">
                     <li class="help__item">
@@ -199,44 +226,44 @@
             <div class="supports__list-wrapper">    
                 <ul class="supports__list">
                     <li class="supports__item supports__item--alliance">
-                        <img class="supports__image--alliance" src="img/ALLIANCE.svg" alt="ALLIANCE">
+                        <img class="supports__image--alliance" src="images/ALLIANCE.svg" alt="ALLIANCE">
                     </li>
                     <li class="supports__item supports__item--wordmark-white">
-                        <img class="supports__image--digital"  src="img/wordmark-white.svg" alt="wordmark-white">
+                        <img class="supports__image--digital"  src="images/wordmark-white.svg" alt="wordmark-white">
                     </li>
                     <li class="supports__item supports__item--Digital">
-                        <img  class="supports__image--oneblock"  src="img/222 1.svg" alt="Digital">
+                        <img  class="supports__image--oneblock"  src="images/222 1.svg" alt="Digital">
                     </li>
                     <li class="supports__item supports__item--fika">
-                        <img class="supports__image--fika"  width="100" src="img/Logo_4.svg" alt="fika">
+                        <img class="supports__image--fika"  width="100" src="images/Logo_4.svg" alt="fika">
                     </li>
                     <li class="supports__item supports__item--pear">
-                        <img class="supports__image--pear"  src="img/Frame (3).svg" alt="pear">
+                        <img class="supports__image--pear"  src="images/Frame (3).svg" alt="pear">
                     </li>
                     <li class="supports__item supports__item--shima">
-                        <img class="supports__image--shima"  src="img/Group 5575.svg" alt="shima">
+                        <img class="supports__image--shima"  src="images/Group 5575.svg" alt="shima">
                     </li>
                 </ul>
             </div>
             <div class="supports__list-wrapper">    
                 <ul class="supports__list">
                     <li class="supports__item supports__item--greatoaks">
-                        <img class="supports__image-greatoaks"  src="img/greadoaks.svg" alt="great oaks">
+                        <img class="supports__image-greatoaks"  src="images/greadoaks.svg" alt="great oaks">
                     </li>
                     <li class="supports__item supports__item--Norwest">
-                        <img class="supports__image--norwest"  src="img/norwest_one-word 2 (1).svg" alt="Norwest">
+                        <img class="supports__image--norwest"  src="images/norwest_one-word 2 (1).svg" alt="Norwest">
                     </li>
                     <li class="supports__item supports__item--fiftyyear">
-                        <img  class="supports__image--fifty"  src="img/Logo_fund_3 (1).svg" alt="fifty year">
+                        <img  class="supports__image--fifty"  src="images/Logo_fund_3 (1).svg" alt="fifty year">
                     </li>
                     <li class="supports__item supports__item--circre">
-                        <img class="supports__image--circle"  src="img/circle 4 (3).svg" alt="circre">
+                        <img class="supports__image--circle"  src="images/circle 4 (3).svg" alt="circre">
                     </li>
                     <li class="supports__item supports__item--protocollabs">
-                        <img class="supports__image--protocollabs"   src="img/PL-logo-vertical-2lines-white.svg" alt="protocol labs">
+                        <img class="supports__image--protocollabs"   src="images/PL-logo-vertical-2lines-white.svg" alt="protocol labs">
                     </li>
                     <li class="supports__item supports__item--vertures">
-                        <img class="supports__image--vertures"  src="img/Logo_12.svg" alt="vertures">
+                        <img class="supports__image--vertures"  src="images/Logo_12.svg" alt="vertures">
                     </li>
                 </ul>
             </div>
@@ -246,7 +273,7 @@
                 <h2 class="press__headline">Press</h2>
                 <ul class="press__list">
                     <li class="press__decicrypt decicrypt">
-                        <img class="decicrypt__image" src="img/Frame 5589.svg" alt="Logotip">
+                        <img class="decicrypt__image" src="images/Frame 5589.svg" alt="Logotip">
                         <h3 class="decicrypt__headline">Super DAO rises $10.5 Million to build an 'all-in-on' DAO
                             platform
                         </h3>
@@ -255,7 +282,7 @@
                         <a class="decicrypt__link">Read</a>
                     </li>
                     <li class="press__blookwork blookwork">
-                        <img class="blookwork__image" src="img/image 93.svg" alt="Logotip2">
+                        <img class="blookwork__image" src="images/image 93.svg" alt="Logotip2">
                         <h3 class="blookwork__headline">The Y combinator of Web3 Attracts Record number of DAO Startup
                         </h3>
                         <p class="blookwork__text">DAOs and related startups made up an "overwhelming number of
@@ -265,7 +292,7 @@
                         <a class="blookwork__link">Read</a>
                     </li>
                     <li class="press__tech-crunch tech-crunch">
-                        <img class="tech-crunch__image" src="img/TechCrunch-logo 1.svg" alt="Logotip3">
+                        <img class="tech-crunch__image" src="images/TechCrunch-logo 1.svg" alt="Logotip3">
                         <h3 class="tech-crunch__headline">VC-backed DAO sturtups are racing to define what DAOs actually
                             are
                         </h3>
@@ -283,14 +310,14 @@
                 <h2 class="podcasts__headline">Podcast</h2>
                 <ul class="podcasts__list">
                     <li class="podcasts__anthony-pompliano anthony-pompliano">
-                        <img class="anthony-pompliano__image" src="img/Rectangle 39403.svg" alt="Logotip4">
+                        <img class="anthony-pompliano__image" src="images/Rectangle 39403.svg" alt="Logotip4">
                         <h3 class="anthony-pompliano__headline">Understanding DAOs with Yury Lifshits</h3>
                         <p class="anthony-pompliano__text">The pomp Podcasts</p>
                         <p class="anthony-pompliano__text2">Authony Pompliano</p>
                         <a class="anthony-pompliano__link" href="#">Lisent</a>
                     </li>
                     <li class="podcasts__josh-gordon josh-gordon">
-                        <img class="josh-gordon__image" src="img/Rectangle 39403 (1).svg" alt="Logotip5">
+                        <img class="josh-gordon__image" src="images/Rectangle 39403 (1).svg" alt="Logotip5">
                         <h3 class="josh-gordon__headline">Everything you need to know about DAOs with Yury Lifshits from
                             superdao</h3>
                         <p class="josh-gordon__text">The unstoppable Podcast</p>
@@ -298,7 +325,7 @@
                         <a class="josh-gordon__link" href="#">Watch</a>
                     </li>
                     <li class="podcasts__andrew-stainwold andrew-stainwold">
-                        <img class="andrew-stainwold__image" src="img/Rectangle 39403 (2).svg" alt="Logotip6">
+                        <img class="andrew-stainwold__image" src="images/Rectangle 39403 (2).svg" alt="Logotip6">
                         <h3 class="andrew-stainwold__headline">Yury Lifshits-superdao: The "Shopify" for DAOs</h3>
                         <p class="andrew-stainwold__text">Zima Red</p>
                         <p class="andrew-stainwold__text2">Andrew Stainwould</p>
@@ -311,7 +338,7 @@
     </main>
     <footer class="footer">
         <div class="footer__wrapper">
-            <a class="footer__link-ikon" href="#"><img class="footer__logo" src="img/Logo (1).svg" alt="logo5"></a>
+            <a class="footer__link-ikon" href="#"><img class="footer__logo" src="images/Logo (1).svg" alt="logo5"></a>
             <ul class="footer__list-text">
                 <li><a class="footer__text" href="">Legal</a></li>
                 <li><a class="footer__text" href="">Jobs</a></li>
@@ -320,22 +347,22 @@
             <ul class="footer__list-link">
                 <li>
                     <a class="footer__link-1" href="#">
-                        <img class="footer__icon" src="img/Frame.svg" alt="tweater">
+                        <img class="footer__icon" src="images/Frame.svg" alt="tweater">
                     </a>
                 </li>
                 <li>
                     <a class="footer__link-2" href="#">
-                        <img class="footer__icon" src="img/Frame (1).svg" alt="Telegramm">
+                        <img class="footer__icon" src="images/Frame (1).svg" alt="Telegramm">
                     </a>
                 </li>
                 <li>
                     <a class="footer__link-3" href="#">
-                        <img class="footer__icon" src="img/Frame (2).svg" alt="youtube">
+                        <img class="footer__icon" src="images/Frame (2).svg" alt="youtube">
                     </a>
                 </li>
                 <li>
                     <a class="footer__link-4" href="#">
-                        <img class="footer__icon" src="img/Frame 5617.svg" alt="discord">
+                        <img class="footer__icon" src="images/Frame 5617.svg" alt="discord">
                     </a>
                 </li>
             </ul>>
