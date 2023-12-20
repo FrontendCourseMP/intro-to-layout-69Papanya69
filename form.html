@@ -94,6 +94,144 @@
                 </div>
             </form>
         </div>
+        <div class="form__legend-wrapper">
+            <form action="//httpbin.org/post">
+                <fieldset class="form-fieldset-teory">
+                    <legend class="form_legend-teory">Определение</legend>
+                    <dl>
+                        <div>
+                            <dt class="teory">dl</dt>
+                            <dd class="teory">Элемент "dl" аналогично элементам "ul" и "ol" является внешней обёрткой для
+                                элементов списка.</dd>
+                        </div>
+                        <div>
+                            <dt class="teory">dt</dt>
+                            <dd class="teory">Элемент "dt" используется для вёрстки термина либо ключа в паре «ключ-значение».
+                                Как правило,
+                                следом за ним идёт либо ещё один тег "dt" (если есть необходимость сверстать
+                                несколько терминов с одним определением), либо тег "dd".</dd>
+                        </div>
+                        <div>
+                            <dt class="teory">dd</dt>
+                            <dd class="teory">Тегом "dd" верстается определение термина, либо значение в паре «ключ-значение».
+                                Следом за этим тегом может идти как ещё один тег "dd" (если у термина несколько
+                                определений), так и тег "dt" (следующий термин).</dd>
+                        </div>
+                    </dl>
+                </fieldset>
+                <div class="form_flex-check">
+                    <fieldset>
+                        <legend class="form_legend">Псевдоэлементы</legend>
+                        <ul>
+                            <li>
+                                <label class="label_checkbox">
+                                    <input class="real_checkbox" type="checkbox" name="checkbox" checked>
+                                    <span class="custom_checkbox"></span>
+                                    <span class="form_txt-gen" id="txt_span"> ::before</span>
+                                </label>
+                            </li>
+                            <li>
+                                <label class="label_checkbox">
+                                    <input class="real_checkbox" type="checkbox" name="checkbox" checked>
+                                    <span class="custom_checkbox"></span>
+                                    <span class="form_txt-gen">::after</span>
+                                </label>
+                            </li>
+                            <li>
+                                <label class="label_checkbox">
+                                    <input class="real_checkbox" type="checkbox" name="checkbox" checked>
+                                    <span class="custom_checkbox"></span>
+                                    <span class="form_txt-gen">::placeholder</span>
+                                </label>
+                            </li>
+                            <li>
+                                <label class="label_checkbox">
+                                    <input class="real_checkbox" type="checkbox" name="checkbox">
+                                    <span class="custom_checkbox"></span>
+                                    <span class="form_txt-gen">::marker</span>
+                                </label>
+                            </li>
+                            <li>
+                                <label class="label_checkbox">
+                                    <input class="real_checkbox" type="checkbox" name="checkbox" checked>
+                                    <span class="custom_checkbox"></span>
+                                    <span class="form_txt-gen">::selection</span>
+                                </label>
+                            </li>
+                            <li>
+                                <label class="label_checkbox">
+                                    <input class="real_checkbox" type="checkbox" name="checkbox">
+                                    <span class="custom_checkbox"></span>
+                                    <span class="form_txt-gen"> ::first-letter</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </fieldset>
+                    <fieldset>
+                        <legend class="form_legend">Псевдоклассы</legend>
+                        <ul>
+                            <li> <label class="label_checkbox">
+                                    <input class="real_checkbox" type="checkbox" name="checkbox" checked>
+                                    <span class="custom_checkbox"></span>
+                                    <span class="form_txt-gen"> :root</span>
+                                </label></li>
+                            <li><label class="label_checkbox">
+                                    <input class="real_checkbox" type="checkbox" name="checkbox">
+                                    <span class="custom_checkbox"></span>
+                                    <span class="form_txt-gen"> :link</span>
+                                </label></li>
+                            <li><label class="label_checkbox">
+                                    <input class="real_checkbox" type="checkbox" name="checkbox">
+                                    <span class="custom_checkbox"></span>
+                                    <span class="form_txt-gen"> :visited</span></label></li>
+                            <li><label class="label_checkbox">
+                                    <input class="real_checkbox" type="checkbox" name="checkbox" checked>
+                                    <span class="custom_checkbox"></span>
+                                    <span class="form_txt-gen"> :hover</span>
+                                </label></li>
+                            <li><label class="label_checkbox">
+                                    <input class="real_checkbox" type="checkbox" name="checkbox" checked>
+                                    <span class="custom_checkbox"></span>
+                                    <span class="form_txt-gen"> :active</span>
+                                </label></li>
+                            <li>
+                            <li><label class="label_checkbox">
+                                    <input class="real_checkbox" type="checkbox" name="checkbox" checked>
+                                    <span class="custom_checkbox"></span>
+                                    <span class="form_txt-gen"> :focus</span>
+                                </label></li>
+                            <li><label class="label_checkbox">
+                                    <input class="real_checkbox" type="checkbox" name="checkbox" checked>
+                                    <span class="custom_checkbox"></span>
+                                    <span class="form_txt-gen"> :checked</span>
+                                </label></li>
+                            <li><label class="label_checkbox">
+                                    <input class="real_checkbox" type="checkbox" name="checkbox">
+                                    <span class="custom_checkbox"></span>
+                                    <span class="form_txt-gen"> :disabled</span>
+                                </label></li>
+                            <li><label class="label_checkbox">
+                                    <input class="real_checkbox" type="checkbox" name="checkbox">
+                                    <span class="custom_checkbox"></span>
+                                    <span class="form_txt-gen"> :enabled</span>
+                                </label></li>
+                            <li><label class="label_checkbox">
+                                    <input class="real_checkbox" type="checkbox" name="checkbox">
+                                    <span class="custom_checkbox"></span>
+                                    <span class="form_txt-gen"> :required</span>
+                                </label></li>
+                            <li>
+                                <label class="label_checkbox">
+                                    <input class="real_checkbox" type="checkbox" name="checkbox" checked>
+                                    <span class="custom_checkbox"></span>
+                                    <span class="form_txt-gen"> :placeholder-show</span>
+                                </label>
+                            </li>
+                        </ul>
+                    </fieldset>
+                </div>
+            </form>
+        </div>    
     </main>
     <footer>
         <div class="footer__wrapper">

@@ -129,7 +129,7 @@ ul {
     min-width: 36rem;
     margin: 1.6rem auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .header__button{
     background-color: #0A1117;
@@ -433,7 +433,86 @@ ul {
     font-weight: 600;
     line-height: 1.8rem;
 }
+.form__legend-wrapper{
+    width: 32.6rem ;
+    margin: 6rem auto 5rem;
+}
+.form-fieldset-teory{
+    border: 0.1rem solid white;
+}
+.form_legend-teory{
+    text-align: center;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 700;
+}
+.teory{
+    text-align: left;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0;
+}
+.form_txt-gen{
+    display: block;
+    font-size: 2rem;
+    font-family: inter, sans-serif;
+    font-weight: 300;
+    color: white;
+    list-style-type: none;
+    margin: 1rem 0 1rem 0;
+    transition: color 0.6s;
+    
+}
+.real_checkbox{
+    display: none;
+}
+.custom_checkbox {
+    position: relative;
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background: white;
+    border: 2px solid gray;
+    border-radius: 50%;
+    vertical-align: sub;
+}
 
+.custom_checkbox::before {
+    content: '';
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 0.2s ease-in;
+
+}
+
+.real_checkbox:checked+.custom_checkbox::before {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.real_checkbox:checked ~ .form_txt-gen {
+    text-decoration: line-through;
+
+}
+.form_legend{
+    text-align: center;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 700;
+}
 .form__input::placeholder {
     color: var(--newsletter-border-color);
 }
@@ -488,9 +567,10 @@ ul {
     align-items: flex-start;
     gap: 2rem;
     list-style: none;
+    margin-bottom: 3rem;
 }
 .footer__text{
-    color:var(--head-color);
+    color:white;
     font-family: Montserrat;
     font-size: 1.4rem;
     font-style: normal;
